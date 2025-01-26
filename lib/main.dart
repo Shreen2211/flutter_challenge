@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
+import 'day_five/type_boxes.dart';
 import 'day_four/declarative_navigation.dart';
 import 'day_four/imperative_navigation.dart';
 import 'day_one/login_screen.dart';
@@ -12,7 +13,7 @@ import 'day_two/buttons.dart';
 
 void main() {
   runApp(
-    DeclarativeNavigation(),
+    BoxesType(),
     /*MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(body: SafeArea(child: const NavigationLearn())),
