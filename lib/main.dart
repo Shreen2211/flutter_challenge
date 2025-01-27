@@ -6,6 +6,7 @@ import 'day_four/declarative_navigation.dart';
 import 'day_four/imperative_navigation.dart';
 import 'day_one/login_screen.dart';
 import 'day_one/text_form_field.dart';
+import 'day_six/lists_type.dart';
 import 'day_three/provider_example.dart';
 import 'day_three/provider_example_two.dart';
 import 'day_three/statemangment.dart';
@@ -13,7 +14,7 @@ import 'day_two/buttons.dart';
 
 void main() {
   runApp(
-    BoxesType(),
+    ListsType(),
     /*MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(body: SafeArea(child: const NavigationLearn())),
