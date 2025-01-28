@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart'; // استيراد مكتبة Flutter الأساسية
-import 'package:flutter_challenge/day_three/provider_example.dart';
+import 'package:flutter_challenge/day_3/provider_example.dart';
 import 'package:provider/provider.dart'; // استيراد مكتبة Provider
 
 // 1. كلاس لإدارة الحالة
