@@ -40,7 +40,7 @@ class _MainScreenState extends State<NestedNavigation> {
 class NavigatorTab extends StatelessWidget {
   final String tabName;
 
-  const NavigatorTab({required this.tabName});
+  const NavigatorTab({super.key, required this.tabName});
 
   @override
   Widget build(BuildContext context) {
@@ -57,7 +57,7 @@ class NavigatorTab extends StatelessWidget {
 class TabScreen extends StatelessWidget {
   final String tabName;
 
-  const TabScreen({required this.tabName});
+  const TabScreen({super.key, required this.tabName});
 
   @override
   Widget build(BuildContext context) {

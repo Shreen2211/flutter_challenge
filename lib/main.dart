@@ -1,12 +1,22 @@
+import 'package:device_preview/device_preview.dart';
 import 'package:flutter/material.dart';
-import 'day_7/http_api.dart';
-
+import 'day_8/layout_builder.dart';
+import 'day_8/media_query.dart';
 
 void main() {
   runApp(
-    MaterialApp(
-      debugShowCheckedModeBanner: false,
-      home: Scaffold(body: SafeArea(child: const HttpApi())),
+    DevicePreview(
+      enabled: true,
+      builder: (context) {
+        // استخدم DevicePreview.appBuilder في البيلدر
+        return DevicePreview.appBuilder(
+          context,
+          MaterialApp(
+            debugShowCheckedModeBanner: false,
+            home: Scaffold(body: SafeArea(child: const ResponsiveScreen())),
+          ),
+        );
+      },
     ),
   );
 }

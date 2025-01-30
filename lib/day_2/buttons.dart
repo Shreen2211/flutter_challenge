@@ -130,9 +130,9 @@ class _ButtonsTypeState extends State<ButtonsType> {
                 print("FAB Pressed");
               },
               backgroundColor: Colors.green,
-              child: Icon(Icons.add),
               elevation: 6.0,
               mini: false,
+              child: Icon(Icons.add),
             ),
 
             DropdownButton<String>(

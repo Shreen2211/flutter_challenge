@@ -17,6 +17,8 @@ class VisibilityProvider with ChangeNotifier {
 
 // 2. التطبيق الرئيسي
 class Example extends StatelessWidget {
+  const Example({super.key});
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -28,6 +30,8 @@ class Example extends StatelessWidget {
 
 // 3. شاشة إظهار/إخفاء الرسالة
 class VisibilityScreen extends StatelessWidget {
+  const VisibilityScreen({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(

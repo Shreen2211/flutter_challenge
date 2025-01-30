@@ -18,6 +18,8 @@ class ScreenProvider with ChangeNotifier {
 
 // 2. التطبيق الرئيسي
 class ExampleTwo extends StatelessWidget {
+  const ExampleTwo({super.key});
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -29,6 +31,8 @@ class ExampleTwo extends StatelessWidget {
 
 // 3. الشاشة الرئيسية
 class MainScreen extends StatelessWidget {
+  const MainScreen({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -47,6 +51,8 @@ class MainScreen extends StatelessWidget {
 
 // 4. الشاشة الأولى
 class FirstScreen extends StatelessWidget {
+  const FirstScreen({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Center(
@@ -73,6 +79,8 @@ class FirstScreen extends StatelessWidget {
 
 // 5. الشاشة الثانية
 class SecondScreen extends StatelessWidget {
+  const SecondScreen({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Center(

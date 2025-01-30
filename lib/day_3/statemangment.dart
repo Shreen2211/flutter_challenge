@@ -15,6 +15,8 @@ class CounterProvider with ChangeNotifier {
 
 // 3. الكلاس الرئيسي للتطبيق
 class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -26,6 +28,8 @@ class MyApp extends StatelessWidget {
 
 // 4. شاشة العداد
 class CounterScreen extends StatelessWidget {
+  const CounterScreen({super.key});
+
   @override
   Widget build(BuildContext context) {
     // واجهة المستخدم

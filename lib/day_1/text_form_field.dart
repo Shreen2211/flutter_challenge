@@ -141,6 +141,7 @@ class TextFormFieldLearn extends StatelessWidget {
                   if (value == null || value.isEmpty) {
                     print('Empty');
                   }
+                  return null;
                 },
                 //عشان اتاكد اوتوماتك من قبل ما دوس اوكي
                 autovalidateMode: AutovalidateMode.always,
