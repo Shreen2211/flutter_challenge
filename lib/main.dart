@@ -1,7 +1,7 @@
 import 'package:device_preview/device_preview.dart';
 import 'package:flutter/material.dart';
 import 'day_8/layout_builder.dart';
-import 'day_8/media_query.dart';
+
 
 void main() {
   runApp(
