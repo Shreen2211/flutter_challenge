@@ -13,7 +13,7 @@ void main() {
           context,
           MaterialApp(
             debugShowCheckedModeBanner: false,
-            home: Scaffold(body: SafeArea(child: const TweenAnimationExample())),
+            home: Scaffold(body: SafeArea(child: const ImplicitAnimationExample())),
           ),
         );
       },
