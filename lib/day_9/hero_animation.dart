@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 
 class FirstScreen extends StatelessWidget {
+  const FirstScreen({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -14,11 +16,7 @@ class FirstScreen extends StatelessWidget {
           },
           child: Hero(
             tag: 'hero-animation', // لازم يكون نفس التاج في الصفحتين
-            child: Container(
-              width: 100,
-              height: 100,
-              color: Colors.green,
-            ),
+            child: Container(width: 100, height: 100, color: Colors.green),
           ),
         ),
       ),
@@ -27,6 +25,8 @@ class FirstScreen extends StatelessWidget {
 }
 
 class SecondScreen extends StatelessWidget {
+  const SecondScreen({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
